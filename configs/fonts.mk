@@ -21,3 +21,20 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+PRODUCT_COPY_FILES += \
+    vendor/404/fonts/HarmonyOS_Sans_Black_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Black_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Black.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Black.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Bold_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Bold_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Bold.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Light_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Light_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Light.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Medium_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Medium_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Medium.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Regular_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Regular_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Regular.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Thin_Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Thin_Italic.ttf \
+    vendor/404/fonts/HarmonyOS_Sans_Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS_Sans_Thin.ttf
+
+PRODUCT_PACKAGES += \
+    FontHarmonyOS-SansOverlay
